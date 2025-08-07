@@ -1,1 +1,33 @@
 @charset "UTF-8";
+
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+#celular{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 311px;
+    height: 627px;
+
+    transform: translate(-50%, -50%);
+    background-image: url('../imagens/frame-iphone.png');
+    background-repeat: no-repeat;
+    
+
+}
+
+main#redes-sociais {
+
+}
+
+body {
+    background-image: url('../imagens/fundo-madeira.jpg');
+    background-repeat: no-repeat;
+    background-position: 100%, 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
